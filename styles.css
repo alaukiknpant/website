@@ -11,6 +11,7 @@ body {
   color: #111;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
 }
 
 /* Header */
@@ -38,6 +39,13 @@ body {
   font-weight: 600;
   color: #111;
   text-decoration: none;
+  flex-shrink: 0;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
 .header-links {
@@ -56,6 +64,85 @@ body {
   color: #111;
 }
 
+/* Language Dropdown */
+.lang-dropdown {
+  position: relative;
+}
+
+.lang-toggle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: none;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 13px;
+  color: #555;
+  transition: all 0.2s;
+}
+
+.lang-toggle:hover {
+  border-color: #bbb;
+  color: #111;
+}
+
+.globe-icon {
+  flex-shrink: 0;
+}
+
+.chevron-icon {
+  flex-shrink: 0;
+  transition: transform 0.2s;
+}
+
+.lang-dropdown.open .chevron-icon {
+  transform: rotate(180deg);
+}
+
+.lang-menu {
+  display: none;
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  min-width: 140px;
+  padding: 4px 0;
+  z-index: 200;
+}
+
+.lang-dropdown.open .lang-menu {
+  display: block;
+}
+
+.lang-option {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-family: inherit;
+  color: #555;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.lang-option:hover {
+  background: #f5f5f5;
+}
+
+.lang-option.active {
+  color: #111;
+  font-weight: 500;
+}
+
 /* Hero */
 .hero {
   padding: 80px 24px 64px;
@@ -66,12 +153,12 @@ body {
   margin: 0 auto;
   display: flex;
   gap: 40px;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .hero-photo img {
-  width: 140px;
-  height: 140px;
+  width: 180px;
+  height: 180px;
   border-radius: 16px;
   object-fit: cover;
   flex-shrink: 0;
@@ -133,6 +220,27 @@ body {
   letter-spacing: -0.3px;
 }
 
+/* Crypto Origin Section */
+.crypto-origin-text {
+  margin-bottom: 20px;
+}
+
+.crypto-origin-text p {
+  font-size: 15px;
+  color: #333;
+  line-height: 1.7;
+  margin-bottom: 12px;
+}
+
+.crypto-origin-text a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.crypto-origin-text a:hover {
+  text-decoration: underline;
+}
+
 /* Experience */
 .experience-list {
   display: flex;
@@ -150,6 +258,7 @@ body {
   display: flex;
   align-items: center;
   gap: 8px;
+  flex-wrap: wrap;
 }
 
 .experience-role {
@@ -204,6 +313,7 @@ body {
   border: none;
   background: none;
   transition: color 0.2s;
+  flex-wrap: wrap;
 }
 
 .card:hover {
@@ -215,6 +325,7 @@ body {
   font-weight: 500;
   color: #aaa;
   margin-right: 4px;
+  flex-shrink: 0;
 }
 
 .card-title {
@@ -295,6 +406,95 @@ body {
   color: #aaa;
 }
 
+/* Article / Predictions Page */
+.article {
+  padding: 48px 24px 64px;
+}
+
+.article-inner {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.back-link {
+  display: inline-block;
+  font-size: 14px;
+  color: #2563eb;
+  text-decoration: none;
+  margin-bottom: 32px;
+  transition: color 0.2s;
+}
+
+.back-link:hover {
+  color: #1d4ed8;
+}
+
+.article-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 4px;
+  letter-spacing: -0.5px;
+}
+
+.article-subtitle {
+  font-size: 15px;
+  color: #888;
+  margin-bottom: 40px;
+}
+
+.article-body h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #111;
+  margin-top: 40px;
+  margin-bottom: 16px;
+  letter-spacing: -0.3px;
+}
+
+.article-body p {
+  font-size: 15px;
+  color: #333;
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+
+.article-body ol {
+  margin-bottom: 16px;
+  padding-left: 24px;
+}
+
+.article-body li {
+  font-size: 15px;
+  color: #333;
+  line-height: 1.8;
+  margin-bottom: 12px;
+}
+
+.article-divider {
+  border: none;
+  border-top: 1px solid #f0f0f0;
+  margin: 48px 0 32px;
+}
+
+.article-haiku {
+  text-align: center;
+  color: #888;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.article-haiku em {
+  font-style: italic;
+}
+
+.haiku-note {
+  font-size: 13px;
+  color: #bbb;
+  margin-top: 12px;
+  font-style: italic;
+}
+
 /* Mobile */
 @media (max-width: 640px) {
   .hero {
@@ -323,5 +523,43 @@ body {
 
   .tags {
     justify-content: center;
+  }
+
+  /* Experience header: stack vertically */
+  .experience-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+  }
+
+  .experience-company::before {
+    content: "";
+  }
+
+  /* Cards: allow wrapping */
+  .card {
+    align-items: flex-start;
+  }
+
+  .card-title {
+    font-size: 16px;
+  }
+
+  .card-source {
+    font-size: 14px;
+  }
+
+  /* Header adjustments */
+  .header-right {
+    gap: 12px;
+  }
+
+  /* Article page */
+  .article {
+    padding: 36px 24px 48px;
+  }
+
+  .article-title {
+    font-size: 24px;
   }
 }
