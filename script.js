@@ -11,7 +11,7 @@ var translations = {
     "section.writing": "Selected Writing & Talks",
     "section.experience": "Experience",
     "section.crypto": "My Crypto Predictions from 2018",
-    "crypto.intro": "In 2018, I spent an hour every week with <a href=\"https://x.com/resistancemoney\" target=\"_blank\" rel=\"noopener\">Professor Andrew Bailey</a> (author of <em>Resistance Money</em>) and two friends \u2014 Adair and Leyli \u2014 discussing cryptocurrencies and the philosophy behind them. That class was my gateway into crypto, and we wrote down our predictions for where it was all headed. <a href=\"predictions.html\">Read them here</a> \u2014 unedited, from 2018.",
+    "crypto.intro": "In 2018, I spent an hour every week with <a href=\"https://x.com/resistancemoney\" target=\"_blank\" rel=\"noopener\">Professor Andrew Bailey</a> (author of <em>Resistance Money</em>) and two friends discussing cryptocurrencies and the philosophy behind them. That class was my gateway into crypto, and we wrote down our predictions for where it was all headed. <a href=\"predictions.html\">Read them here</a> \u2014 unedited, from 2018.",
     "card.1.title": "The Speed of Wall Street, the Trust of Ethereum",
     "card.1.source": "Substack",
     "card.2.title": "The Exchange \u201CDesigned\u201D to Pay You",
@@ -38,7 +38,7 @@ var translations = {
     "section.writing": "\uC8FC\uC694 \uAE00 \uBC0F \uAC15\uC5F0",
     "section.experience": "\uACBD\uB825",
     "section.crypto": "2018\uB144 \uC554\uD638\uD654\uD3D0 \uC608\uCE21",
-    "crypto.intro": "2018\uB144, \uC800\uB294 \uB9E4\uC8FC \uD55C \uC2DC\uAC04\uC529 <a href=\"https://x.com/resistancemoney\" target=\"_blank\" rel=\"noopener\">Andrew Bailey \uAD50\uC218\uB2D8</a>(<em>Resistance Money</em> \uC800\uC790)\uACFC \uB450 \uCE5C\uAD6C \u2014 Adair\uC640 Leyli \u2014 \uC640 \uD568\uAED8 \uC554\uD638\uD654\uD3D0\uC640 \uADF8 \uB4A4\uC758 \uCCA0\uD559\uC744 \uB17C\uC758\uD588\uC2B5\uB2C8\uB2E4. \uADF8 \uC218\uC5C5\uC774 \uC800\uB97C \uC554\uD638\uD654\uD3D0 \uC138\uACC4\uB85C \uC774\uB04C\uC5C8\uACE0, \uC6B0\uB9AC\uB294 \uBBF8\uB798\uC5D0 \uB300\uD55C \uC608\uCE21\uC744 \uC801\uC5C8\uC2B5\uB2C8\uB2E4. <a href=\"predictions.html\">\uC5EC\uAE30\uC11C \uC77D\uC5B4\uBCF4\uC138\uC694</a> \u2014 2018\uB144\uC758 \uC6D0\uBB38 \uADF8\uB300\uB85C\uC785\uB2C8\uB2E4.",
+    "crypto.intro": "2018\uB144, \uC800\uB294 \uB9E4\uC8FC \uD55C \uC2DC\uAC04\uC529 <a href=\"https://x.com/resistancemoney\" target=\"_blank\" rel=\"noopener\">Andrew Bailey \uAD50\uC218\uB2D8</a>(<em>Resistance Money</em> \uC800\uC790)\uACFC \uB450 \uCE5C\uAD6C\uC640 \uD568\uAED8 \uC554\uD638\uD654\uD3D0\uC640 \uADF8 \uB4A4\uC758 \uCCA0\uD559\uC744 \uB17C\uC758\uD588\uC2B5\uB2C8\uB2E4. \uADF8 \uC218\uC5C5\uC774 \uC800\uB97C \uC554\uD638\uD654\uD3D0 \uC138\uACC4\uB85C \uC774\uB04C\uC5C8\uACE0, \uC6B0\uB9AC\uB294 \uBBF8\uB798\uC5D0 \uB300\uD55C \uC608\uCE21\uC744 \uC801\uC5C8\uC2B5\uB2C8\uB2E4. <a href=\"predictions.html\">\uC5EC\uAE30\uC11C \uC77D\uC5B4\uBCF4\uC138\uC694</a> \u2014 2018\uB144\uC758 \uC6D0\uBB38 \uADF8\uB300\uB85C\uC785\uB2C8\uB2E4.",
     "card.1.title": "\uC6D4\uC2A4\uD2B8\uB9AC\uD2B8\uC758 \uC18D\uB3C4, \uC774\uB354\uB9AC\uC6C0\uC758 \uC2E0\uB8B0",
     "card.1.source": "Substack",
     "card.2.title": "\uB2F9\uC2E0\uC5D0\uAC8C \uBCF4\uC0C1\uD558\uB3C4\uB85D \u201C\uC124\uACC4\uB41C\u201D \uAC70\uB798\uC18C",
@@ -65,7 +65,7 @@ var translations = {
     "section.writing": "\u4E3B\u306A\u57F7\u7B46\u30FB\u8B1B\u6F14",
     "section.experience": "\u7D4C\u6B74",
     "section.crypto": "2018\u5E74\u306E\u6697\u53F7\u8CC7\u7523\u4E88\u6E2C",
-    "crypto.intro": "2018\u5E74\u3001\u6BCE\u9031\u4E00\u6642\u9593\u3001<a href=\"https://x.com/resistancemoney\" target=\"_blank\" rel=\"noopener\">Andrew Bailey\u6559\u6388</a>\uFF08<em>Resistance Money</em>\u306E\u8457\u8005\uFF09\u3068\u4E8C\u4EBA\u306E\u53CB\u4EBA \u2014 Adair\u3068Leyli \u2014 \u3068\u4E00\u7DD2\u306B\u6697\u53F7\u8CC7\u7523\u3068\u305D\u306E\u54F2\u5B66\u3092\u8AD6\u3058\u3066\u3044\u307E\u3057\u305F\u3002\u305D\u306E\u6388\u696D\u304C\u79C1\u3092\u6697\u53F7\u8CC7\u7523\u306E\u4E16\u754C\u3078\u5C0E\u304D\u3001\u79C1\u305F\u3061\u306F\u672A\u6765\u306B\u3064\u3044\u3066\u306E\u4E88\u6E2C\u3092\u66F8\u304D\u7559\u3081\u307E\u3057\u305F\u3002<a href=\"predictions.html\">\u3053\u3053\u3067\u8AAD\u3080</a> \u2014 2018\u5E74\u306E\u539F\u6587\u305D\u306E\u307E\u307E\u3067\u3059\u3002",
+    "crypto.intro": "2018\u5E74\u3001\u6BCE\u9031\u4E00\u6642\u9593\u3001<a href=\"https://x.com/resistancemoney\" target=\"_blank\" rel=\"noopener\">Andrew Bailey\u6559\u6388</a>\uFF08<em>Resistance Money</em>\u306E\u8457\u8005\uFF09\u3068\u4E8C\u4EBA\u306E\u53CB\u4EBA\u3068\u4E00\u7DD2\u306B\u6697\u53F7\u8CC7\u7523\u3068\u305D\u306E\u54F2\u5B66\u3092\u8AD6\u3058\u3066\u3044\u307E\u3057\u305F\u3002\u305D\u306E\u6388\u696D\u304C\u79C1\u3092\u6697\u53F7\u8CC7\u7523\u306E\u4E16\u754C\u3078\u5C0E\u304D\u3001\u79C1\u305F\u3061\u306F\u672A\u6765\u306B\u3064\u3044\u3066\u306E\u4E88\u6E2C\u3092\u66F8\u304D\u7559\u3081\u307E\u3057\u305F\u3002<a href=\"predictions.html\">\u3053\u3053\u3067\u8AAD\u3080</a> \u2014 2018\u5E74\u306E\u539F\u6587\u305D\u306E\u307E\u307E\u3067\u3059\u3002",
     "card.1.title": "\u30A6\u30A9\u30FC\u30EB\u30B9\u30C8\u30EA\u30FC\u30C8\u306E\u30B9\u30D4\u30FC\u30C9\u3001\u30A4\u30FC\u30B5\u30EA\u30A2\u30E0\u306E\u4FE1\u983C",
     "card.1.source": "Substack",
     "card.2.title": "\u3042\u306A\u305F\u306B\u5831\u916C\u3092\u300C\u8A2D\u8A08\u300D\u3055\u308C\u305F\u53D6\u5F15\u6240",
@@ -92,7 +92,7 @@ var translations = {
     "section.writing": "\u7CBE\u9009\u6587\u7AE0\u4E0E\u6F14\u8BB2",
     "section.experience": "\u5DE5\u4F5C\u7ECF\u5386",
     "section.crypto": "\u62112018\u5E74\u7684\u52A0\u5BC6\u8D27\u5E01\u9884\u6D4B",
-    "crypto.intro": "2018\u5E74\uFF0C\u6211\u6BCF\u5468\u82B1\u4E00\u4E2A\u5C0F\u65F6\u4E0E<a href=\"https://x.com/resistancemoney\" target=\"_blank\" rel=\"noopener\">Andrew Bailey\u6559\u6388</a>\uFF08<em>Resistance Money</em>\u4F5C\u8005\uFF09\u548C\u4E24\u4F4D\u670B\u53CB \u2014 Adair\u548CLeyli \u2014 \u4E00\u8D77\u8BA8\u8BBA\u52A0\u5BC6\u8D27\u5E01\u53CA\u5176\u54F2\u5B66\u3002\u90A3\u95E8\u8BFE\u662F\u6211\u8FDB\u5165\u52A0\u5BC6\u4E16\u754C\u7684\u5165\u53E3\uFF0C\u6211\u4EEC\u5199\u4E0B\u4E86\u5BF9\u672A\u6765\u7684\u9884\u6D4B\u3002<a href=\"predictions.html\">\u5728\u8FD9\u91CC\u9605\u8BFB</a> \u2014 2018\u5E74\u7684\u539F\u6587\u3002",
+    "crypto.intro": "2018\u5E74\uFF0C\u6211\u6BCF\u5468\u82B1\u4E00\u4E2A\u5C0F\u65F6\u4E0E<a href=\"https://x.com/resistancemoney\" target=\"_blank\" rel=\"noopener\">Andrew Bailey\u6559\u6388</a>\uFF08<em>Resistance Money</em>\u4F5C\u8005\uFF09\u548C\u4E24\u4F4D\u670B\u53CB\u4E00\u8D77\u8BA8\u8BBA\u52A0\u5BC6\u8D27\u5E01\u53CA\u5176\u54F2\u5B66\u3002\u90A3\u95E8\u8BFE\u662F\u6211\u8FDB\u5165\u52A0\u5BC6\u4E16\u754C\u7684\u5165\u53E3\uFF0C\u6211\u4EEC\u5199\u4E0B\u4E86\u5BF9\u672A\u6765\u7684\u9884\u6D4B\u3002<a href=\"predictions.html\">\u5728\u8FD9\u91CC\u9605\u8BFB</a> \u2014 2018\u5E74\u7684\u539F\u6587\u3002",
     "card.1.title": "\u534E\u5C14\u8857\u7684\u901F\u5EA6\uFF0C\u4EE5\u592A\u574A\u7684\u4FE1\u4EFB",
     "card.1.source": "Substack",
     "card.2.title": "\u201C\u8BBE\u8BA1\u201D\u4E3A\u4F60\u4ED8\u6B3E\u7684\u4EA4\u6613\u6240",
@@ -119,7 +119,7 @@ var translations = {
     "section.writing": "\u091A\u0941\u0928\u093F\u0902\u0926\u093E \u0932\u0947\u0916 \u0914\u0930 \u0935\u093E\u0930\u094D\u0924\u093E\u090F\u0901",
     "section.experience": "\u0905\u0928\u0941\u092D\u0935",
     "section.crypto": "2018 \u0915\u0940 \u092E\u0947\u0930\u0940 \u0915\u094D\u0930\u093F\u092A\u094D\u091F\u094B \u092D\u0935\u093F\u0937\u094D\u092F\u0935\u093E\u0923\u093F\u092F\u093E\u0901",
-    "crypto.intro": "2018 \u092E\u0947\u0902, \u092E\u0948\u0902 \u0939\u0930 \u0939\u092B\u094D\u0924\u0947 \u090F\u0915 \u0918\u0902\u091F\u093E <a href=\"https://x.com/resistancemoney\" target=\"_blank\" rel=\"noopener\">\u092A\u094D\u0930\u094B\u092B\u0947\u0938\u0930 Andrew Bailey</a> (<em>Resistance Money</em> \u0915\u0947 \u0932\u0947\u0916\u0915) \u0914\u0930 \u0926\u094B \u0926\u094B\u0938\u094D\u0924\u094B\u0902 \u2014 Adair \u0914\u0930 Leyli \u2014 \u0915\u0947 \u0938\u093E\u0925 \u0915\u094D\u0930\u093F\u092A\u094D\u091F\u094B\u0915\u0930\u0947\u0902\u0938\u0940 \u0914\u0930 \u0909\u0938\u0915\u0947 \u0926\u0930\u094D\u0936\u0928 \u092A\u0930 \u091A\u0930\u094D\u091A\u093E \u0915\u0930\u0924\u093E \u0925\u093E\u0964 \u0909\u0938 \u0915\u0915\u094D\u0937\u093E \u0928\u0947 \u092E\u0941\u091D\u0947 \u0915\u094D\u0930\u093F\u092A\u094D\u091F\u094B \u0915\u0940 \u0926\u0941\u0928\u093F\u092F\u093E \u092E\u0947\u0902 \u0932\u093E\u092F\u093E, \u0914\u0930 \u0939\u092E\u0928\u0947 \u092D\u0935\u093F\u0937\u094D\u092F \u0915\u0947 \u092C\u093E\u0930\u0947 \u092E\u0947\u0902 \u0905\u092A\u0928\u0940 \u092D\u0935\u093F\u0937\u094D\u092F\u0935\u093E\u0923\u093F\u092F\u093E\u0901 \u0932\u093F\u0916\u0940\u0902\u0964 <a href=\"predictions.html\">\u092F\u0939\u093E\u0901 \u092A\u0922\u093C\u0947\u0902</a> \u2014 2018 \u0938\u0947, \u092C\u093F\u0928\u093E \u0938\u0902\u092A\u093E\u0926\u0928 \u0915\u0947\u0964",
+    "crypto.intro": "2018 \u092E\u0947\u0902, \u092E\u0948\u0902 \u0939\u0930 \u0939\u092B\u094D\u0924\u0947 \u090F\u0915 \u0918\u0902\u091F\u093E <a href=\"https://x.com/resistancemoney\" target=\"_blank\" rel=\"noopener\">\u092A\u094D\u0930\u094B\u092B\u0947\u0938\u0930 Andrew Bailey</a> (<em>Resistance Money</em> \u0915\u0947 \u0932\u0947\u0916\u0915) \u0914\u0930 \u0926\u094B \u0926\u094B\u0938\u094D\u0924\u094B\u0902 \u0915\u0947 \u0938\u093E\u0925 \u0915\u094D\u0930\u093F\u092A\u094D\u091F\u094B\u0915\u0930\u0947\u0902\u0938\u0940 \u0914\u0930 \u0909\u0938\u0915\u0947 \u0926\u0930\u094D\u0936\u0928 \u092A\u0930 \u091A\u0930\u094D\u091A\u093E \u0915\u0930\u0924\u093E \u0925\u093E\u0964 \u0909\u0938 \u0915\u0915\u094D\u0937\u093E \u0928\u0947 \u092E\u0941\u091D\u0947 \u0915\u094D\u0930\u093F\u092A\u094D\u091F\u094B \u0915\u0940 \u0926\u0941\u0928\u093F\u092F\u093E \u092E\u0947\u0902 \u0932\u093E\u092F\u093E, \u0914\u0930 \u0939\u092E\u0928\u0947 \u092D\u0935\u093F\u0937\u094D\u092F \u0915\u0947 \u092C\u093E\u0930\u0947 \u092E\u0947\u0902 \u0905\u092A\u0928\u0940 \u092D\u0935\u093F\u0937\u094D\u092F\u0935\u093E\u0923\u093F\u092F\u093E\u0901 \u0932\u093F\u0916\u0940\u0902\u0964 <a href=\"predictions.html\">\u092F\u0939\u093E\u0901 \u092A\u0922\u093C\u0947\u0902</a> \u2014 2018 \u0938\u0947, \u092C\u093F\u0928\u093E \u0938\u0902\u092A\u093E\u0926\u0928 \u0915\u0947\u0964",
     "card.1.title": "\u0935\u0949\u0932 \u0938\u094D\u091F\u094D\u0930\u0940\u091F \u0915\u0940 \u0917\u0924\u093F, \u0907\u0925\u0940\u0930\u093F\u092F\u092E \u0915\u093E \u092D\u0930\u094B\u0938\u093E",
     "card.1.source": "Substack",
     "card.2.title": "\u0906\u092A\u0915\u094B \u092D\u0941\u0917\u0924\u093E\u0928 \u0915\u0930\u0928\u0947 \u0915\u0947 \u0932\u093F\u090F \u201C\u0921\u093F\u091C\u093E\u0907\u0928\u201D \u0915\u093F\u092F\u093E \u0917\u092F\u093E \u090F\u0915\u094D\u0938\u091A\u0947\u0902\u091C",
@@ -146,7 +146,7 @@ var translations = {
     "section.writing": "Ausgew\u00e4hlte Artikel & Vortr\u00e4ge",
     "section.experience": "Berufserfahrung",
     "section.crypto": "Meine Krypto-Vorhersagen von 2018",
-    "crypto.intro": "2018 verbrachte ich jede Woche eine Stunde mit <a href=\"https://x.com/resistancemoney\" target=\"_blank\" rel=\"noopener\">Professor Andrew Bailey</a> (Autor von <em>Resistance Money</em>) und zwei Freunden \u2014 Adair und Leyli \u2014 und diskutierte \u00fcber Kryptow\u00e4hrungen und die Philosophie dahinter. Dieser Kurs war mein Einstieg in die Kryptowelt, und wir schrieben unsere Vorhersagen auf. <a href=\"predictions.html\">Hier lesen</a> \u2014 unbearbeitet, aus dem Jahr 2018.",
+    "crypto.intro": "2018 verbrachte ich jede Woche eine Stunde mit <a href=\"https://x.com/resistancemoney\" target=\"_blank\" rel=\"noopener\">Professor Andrew Bailey</a> (Autor von <em>Resistance Money</em>) und zwei Freunden und diskutierte \u00fcber Kryptow\u00e4hrungen und die Philosophie dahinter. Dieser Kurs war mein Einstieg in die Kryptowelt, und wir schrieben unsere Vorhersagen auf. <a href=\"predictions.html\">Hier lesen</a> \u2014 unbearbeitet, aus dem Jahr 2018.",
     "card.1.title": "Die Geschwindigkeit der Wall Street, das Vertrauen von Ethereum",
     "card.1.source": "Substack",
     "card.2.title": "Die B\u00f6rse, die \u201Edarauf ausgelegt\u201C ist, Sie zu bezahlen",
@@ -192,11 +192,61 @@ function setLanguage(lang) {
   localStorage.setItem("lang", lang);
 }
 
+var themeLabels = {
+  "default": "Default",
+  "skeuomorphic": "Skeuomorphic",
+  "windows": "Windows OS",
+  "cyberpunk": "Cyberpunk"
+};
+
+function setTheme(theme) {
+  document.body.classList.remove("theme-skeuomorphic", "theme-windows", "theme-cyberpunk");
+  if (theme && theme !== "default") {
+    document.body.classList.add("theme-" + theme);
+  }
+
+  document.querySelectorAll(".theme-current").forEach(function(el) {
+    el.textContent = themeLabels[theme] || "Default";
+  });
+
+  document.querySelectorAll(".theme-option").forEach(function(opt) {
+    opt.classList.toggle("active", opt.getAttribute("data-theme") === theme);
+  });
+
+  localStorage.setItem("theme", theme);
+}
+
 document.addEventListener("DOMContentLoaded", function() {
-  // Dropdown toggle
+  // Theme dropdown toggle
+  document.querySelectorAll(".theme-toggle").forEach(function(toggle) {
+    toggle.addEventListener("click", function(e) {
+      e.stopPropagation();
+      // Close lang dropdown if open
+      document.querySelectorAll(".lang-dropdown.open").forEach(function(d) {
+        d.classList.remove("open");
+      });
+      var dropdown = this.closest(".theme-dropdown");
+      dropdown.classList.toggle("open");
+    });
+  });
+
+  // Theme option click
+  document.querySelectorAll(".theme-option").forEach(function(opt) {
+    opt.addEventListener("click", function(e) {
+      e.stopPropagation();
+      setTheme(this.getAttribute("data-theme"));
+      this.closest(".theme-dropdown").classList.remove("open");
+    });
+  });
+
+  // Lang dropdown toggle
   document.querySelectorAll(".lang-toggle").forEach(function(toggle) {
     toggle.addEventListener("click", function(e) {
       e.stopPropagation();
+      // Close theme dropdown if open
+      document.querySelectorAll(".theme-dropdown.open").forEach(function(d) {
+        d.classList.remove("open");
+      });
       var dropdown = this.closest(".lang-dropdown");
       dropdown.classList.toggle("open");
     });
@@ -211,12 +261,18 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
 
-  // Close dropdown when clicking outside
+  // Close all dropdowns when clicking outside
   document.addEventListener("click", function() {
-    document.querySelectorAll(".lang-dropdown.open").forEach(function(d) {
+    document.querySelectorAll(".lang-dropdown.open, .theme-dropdown.open").forEach(function(d) {
       d.classList.remove("open");
     });
   });
+
+  // Restore saved theme
+  var savedTheme = localStorage.getItem("theme");
+  if (savedTheme && themeLabels[savedTheme]) {
+    setTheme(savedTheme);
+  }
 
   // Restore saved language
   var saved = localStorage.getItem("lang");
