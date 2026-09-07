@@ -34,38 +34,62 @@ body {
 
 
 
-/* Hero */
-.social-links {
-  display: flex;
-  gap: 18px;
-  margin: 12px 0 16px;
+/* Top bar */
+.topbar {
+  padding: 18px 24px 0;
 }
 
-.social-links a {
-  color: #666;
+.topbar-inner {
+  max-width: 720px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  min-height: 24px;
+}
+
+.topbar-split {
+  justify-content: space-between;
+}
+
+.topbar .back-link {
+  margin-bottom: 0;
+}
+
+.topbar-social {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.topbar-social a {
+  color: #999;
+  display: flex;
+  align-items: center;
   transition: color 0.2s;
-  display: flex;
 }
 
-.social-links a:hover {
+.topbar-social a:hover {
   color: #111;
 }
 
+/* Hero */
+
 .hero {
-  padding: 56px 24px 56px;
+  padding: 40px 24px 56px;
 }
 
 .hero-inner {
   max-width: 720px;
   margin: 0 auto;
   display: flex;
-  gap: 40px;
   align-items: center;
+  gap: 36px;
 }
 
 .hero-photo img {
-  width: 180px;
-  height: 180px;
+  width: 160px;
+  height: 160px;
   border-radius: 16px;
   object-fit: cover;
   flex-shrink: 0;
@@ -324,7 +348,7 @@ body {
 
 /* Article / Predictions Page */
 .article {
-  padding: 48px 24px 64px;
+  padding: 36px 24px 64px;
 }
 
 .article-inner {
@@ -414,7 +438,7 @@ body {
 /* Mobile */
 @media (max-width: 640px) {
   .hero {
-    padding: 48px 24px 40px;
+    padding: 32px 24px 40px;
   }
 
   .hero-inner {
@@ -471,7 +495,7 @@ body {
 
   /* Article page */
   .article {
-    padding: 36px 24px 48px;
+    padding: 28px 24px 48px;
   }
 
   .article-title {
