@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Alaukik Pant</title>
+</head>
+<body>
+  <p>Taking you to <a href="/about">lowkeyanp.com</a>...</p>
+  <script>
+    var p = window.location.pathname;
+    if (p.endsWith('.html')) {
+      window.location.replace(p.slice(0, -5) || '/about');
+    } else {
+      window.location.replace('/about');
+    }
+  </script>
+</body>
+</html>
