@@ -236,6 +236,30 @@ body {
   line-height: 1.5;
 }
 
+/* Writing & Talks */
+.writing-talks {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.writing-talks .section-inner h2 {
+  margin-bottom: 12px;
+}
+
+.writing-talks .card {
+  padding: 3px 0;
+  gap: 6px;
+}
+
+.writing-talks .card-number,
+.writing-talks .card-title {
+  font-size: 14px;
+}
+
+.writing-talks .card-source {
+  font-size: 12px;
+}
+
 /* Cards */
 .cards {
   display: flex;
@@ -461,6 +485,11 @@ body {
     padding: 36px 24px;
   }
 
+  .writing-talks {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
   .tags {
     justify-content: center;
   }
@@ -488,6 +517,15 @@ body {
 
   .card-source {
     font-size: 14px;
+  }
+
+  .writing-talks .card-number,
+  .writing-talks .card-title {
+    font-size: 14px;
+  }
+
+  .writing-talks .card-source {
+    font-size: 12px;
   }
 
   /* Header adjustments */
